@@ -1,3 +1,5 @@
+import os
+os.environ.setdefault("OMP_NUM_THREADS", "4")
 import cv2
 import mediapipe as mp
 import numpy as np
